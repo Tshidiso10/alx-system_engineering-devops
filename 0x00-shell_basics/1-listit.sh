@@ -1,8 +1,2 @@
-# !/bin/bash
-for item in *
-do 
-	if [ -d $item ]
-	then 
-		echo $item
-		fi
-done
+#!/bin/bash
+ls -l -d */
